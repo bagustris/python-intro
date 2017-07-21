@@ -41,9 +41,6 @@ for i = 1 --> length(l)
 		j = j - 1
 ```
 
-Read list from file
-
-
 In order to test it, generate a list of 10 **random integer numbers** and then call your function
 
 ```
@@ -99,6 +96,18 @@ __all__ = ["insertion_sort", "quick_sort"]
 
 - Write a module named `performance` where you have to implement a `time_this` function which takes a function as argument
 
+```
+def time_this(f, nexec=100, dt=60):
+	from time import time
+	t0 = time()
+	for k in range(nexec):
+		f()
+		t = time()
+		if t - t0 > dt:
+			break
+		return (t-t0)/(k+1)
+```
+
 - **Optional** produce nice plots with `matplotlib`
 
 # Exercise 6
@@ -106,7 +115,6 @@ __all__ = ["insertion_sort", "quick_sort"]
 - Organize the modules `sorting` and `performance` in a package named `mysorting`
 
 - How do you access your functions now?
-
 
 # Exercise 7
 
