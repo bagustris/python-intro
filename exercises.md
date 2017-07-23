@@ -2,32 +2,12 @@
 
 How to swap two numbers?
 
-	a,b = b,a
 
 # Exercise 2
 
 - Write a "vocabulary" (3 words) from English to another language.
 - Construct a dictionary from the language you have chosen to English **without rewriting everything**
 
-```
-e2i = {"book":"libro",
-       "pen":"penna",
-       "bottle":"bottiglia"}
-
-for pair in e2i.items():
-    print(pair[0], " --->", pair[1])
-
-for key in e2i.keys():
-    print(key)
-
-i2e = {}
-
-for key in e2i.keys():
-    i2e[e2i[key]] = key
-
-for pair in i2e.items():
-    print(pair[0], " --->", pair[1])
-```
 
 # Exercise 3
 
@@ -41,7 +21,9 @@ for i = 1 --> length(l)
 		j = j - 1
 ```
 
-In order to test it, generate a list of 10 **random integer numbers** and then call your function
+Test it sorting the `sort_this.txt` file.
+
+- How can we generate a new list with **random integer numbers** 
 
 ```
 from random import randint
@@ -51,11 +33,8 @@ randint(0,100)
 
 what is the `Pythonic` way to construct such a list?
 
-```
-l = [randint(0,100) for k in range(10)]
-```
 
-- test if your algorithm works for `len(l)=10,100,1000,10000,100000`. What do you experience?
+- Test if your algorithm works for `len(l)=10,100,1000,10000`. What do you experience? Can you sort a list of `100k` elements?
 
 # Exercise 4
 
@@ -92,8 +71,6 @@ def partition(array, begin, end):
 __all__ = ["insertion_sort", "quick_sort"]
 ```
 
-# Exercise 5
-
 - Write a module named `performance` where you have to implement a `time_this` function which takes a function as argument
 
 ```
@@ -110,13 +87,13 @@ def time_this(f, nexec=100, dt=60):
 
 - **Optional** produce nice plots with `matplotlib`
 
-# Exercise 6
+# Exercise 5
 
 - Organize the modules `sorting` and `performance` in a package named `mysorting`
 
 - How do you access your functions now?
 
-# Exercise 7
+# Exercise 6
 
 - play with `matplotlib`
 - have fun with Project Euler https://projecteuler.net/problems
