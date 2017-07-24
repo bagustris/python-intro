@@ -15,7 +15,7 @@ How to swap two numbers?
 ## Solution 2
 ```
   dictionary = {'book' : 'buku',
-      'table' :'m1eja',
+      'table' :'meja',
       'chair' : 'kursi' }
    
   for k in dictionary.keys():
