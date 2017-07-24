@@ -73,15 +73,11 @@ def partition(array, begin, end):
 - Write a module named `performance` where you have to implement a `time_this` function which takes a function as argument
 
 ```
-def time_this(f, nexec=100, dt=60):
-	from time import time
-	t0 = time()
-	for k in range(nexec):
-		f()
-		t = time()
-		if t - t0 > dt:
-			break
-		return (t-t0)/(k+1)
+from time import time
+t0 = time()
+f()
+t = time()
+execution_time = t - t0 
 ```
 
 - **Optional** produce nice plots with `matplotlib`
