@@ -4,7 +4,8 @@
 ## Exercise 1
 
 How to swap two numbers?
-
+# Solution
+`>>> c, d = d, c`
 
 ## Exercise 2
 
