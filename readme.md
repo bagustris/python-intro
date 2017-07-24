@@ -70,10 +70,6 @@ def partition(array, begin, end):
 
 - How can I hide the `partition` function to the user?
 
-```
-__all__ = ["insertion_sort", "quick_sort"]
-```
-
 - Write a module named `performance` where you have to implement a `time_this` function which takes a function as argument
 
 ```
