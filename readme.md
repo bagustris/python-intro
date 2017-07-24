@@ -1,15 +1,18 @@
-# Exercise 1
+# Python introduction
+### Alberto Sartori
+
+## Exercise 1
 
 How to swap two numbers?
 
 
-# Exercise 2
+## Exercise 2
 
 - Write a "vocabulary" (3 words) from English to another language.
 - Construct a dictionary from the language you have chosen to English **without rewriting everything**
 
 
-# Exercise 3
+## Exercise 3
 
 - Implement the `insertion sort` algorithm in a function named `insertion_sort` which takes a list `l` as argument and sorts it `in place`.
 
@@ -36,7 +39,7 @@ what is the `Pythonic` way to construct such a list?
 
 - Test if your algorithm works for `len(l)=10,100,1000,10000`. What do you experience? Can you sort a list of `100k` elements?
 
-# Exercise 4
+## Exercise 4
 
 - Write a module named `sorting` where you put the `insertion_sort` and a `quick_sort`
 
@@ -87,13 +90,13 @@ def time_this(f, nexec=100, dt=60):
 
 - **Optional** produce nice plots with `matplotlib`
 
-# Exercise 5
+## Exercise 5
 
 - Organize the modules `sorting` and `performance` in a package named `mysorting`
 
 - How do you access your functions now?
 
-# Exercise 6
+## Exercise 6
 
 - play with `matplotlib`
 - have fun with Project Euler https://projecteuler.net/problems
