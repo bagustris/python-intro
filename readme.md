@@ -4,23 +4,11 @@
 ## Exercise 1
 
 How to swap two numbers?
-## Solution 1
-`>>> c, d = d, c`
 
 ## Exercise 2
 
 - Write a "vocabulary" (3 words) from English to another language.
 - Construct a dictionary from the language you have chosen to English **without rewriting everything**
-
-## Solution 2
-```
-  dictionary = {'book' : 'buku',
-      'table' :'meja',
-      'chair' : 'kursi' }
-   
-  for k in dictionary.keys():
-      print(k, "-->", dictionary[k])
-```
 
 ## Exercise 3
 
