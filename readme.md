@@ -1,5 +1,5 @@
 # Python introduction
-### Alberto Sartori
+### B.T. Atmaja (based on asartori86)
 
 ## Exercise 1
 
