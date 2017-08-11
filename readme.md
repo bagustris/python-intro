@@ -1,6 +1,13 @@
 # Python introduction
 ### B.T. Atmaja (based on asartori86)
 
+
+## How-to learn:
+1. Study and undertand the content in directory slide, there is three slides, minimally you should understand all materials in slide 1.
+2. Learning by coding, try to code python script shown on the slide 
+3. Do the exercise below
+4. For plotting, you can see `plot` directory.
+
 ## Exercise 1
 
 How to swap two numbers?
